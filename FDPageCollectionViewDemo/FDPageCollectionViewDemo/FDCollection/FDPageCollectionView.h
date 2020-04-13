@@ -11,6 +11,8 @@
 
 @interface FDPageCollectionView : UIView
 
+@property (nonatomic, assign) BOOL scrollEnable;
+
 - (void)render:(NSArray *)imgs;
 
 - (void)prepareFirstCellVideo;

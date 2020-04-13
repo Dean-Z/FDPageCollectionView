@@ -32,6 +32,7 @@
 
 - (void)render:(NSArray *)imgs {
     [self.collectionView render:imgs];
+    self.collectionView.scrollEnable = NO;
 }
 
 - (void)prepareCollectionVideo {
