@@ -8,12 +8,15 @@
 
 #import "FDPageTableViewCell.h"
 #import "FDPageCollectionView.h"
+#import "FDTagGroupView.h"
 #import "FDPageControl.h"
 
 @interface FDPageTableViewCell ()<FDPageCollectionViewDelegate>
 
 @property (nonatomic, strong) FDPageCollectionView *collectionView;
 @property (nonatomic, strong) FDPageControl *pageControl;
+
+@property (nonatomic, strong) FDTagGroupView *tagsView;
 
 @end
 
@@ -28,6 +31,7 @@
 - (void)setup {
     [self addSubview:self.collectionView];
     [self addSubview:self.pageControl];
+    [self addSubview:self.tagsView];
     [self.collectionView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(self);
     }];
@@ -36,6 +40,12 @@
         make.left.right.equalTo(self);
         make.bottom.equalTo(self).offset(-30);
         make.height.equalTo(@2);
+    }];
+    [self.tagsView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.equalTo(@20);
+        make.right.equalTo(self).offset(-20);
+        make.bottom.equalTo(self.pageControl.mas_top).offset(-12);
+        make.height.equalTo(@(self.tagsView.sizeOfHeight));
     }];
 }
 
@@ -71,6 +81,29 @@
         _pageControl = [[FDPageControl alloc] init];
     }
     return _pageControl;
+}
+
+- (FDTagGroupView *)tagsView {
+    if (!_tagsView) {
+        _tagsView = [FDTagGroupView tagGroupViewWithTagModels:[self mockTags]];
+        _tagsView.singleLine = NO;
+        [_tagsView fullSizeToFitWithWidth:[UIScreen mainScreen].bounds.size.width - 40];
+    }
+    return _tagsView;
+}
+
+
+- (NSArray *)mockTags {
+    FDTagModel *model1 = [FDTagModel new];
+    model1.icon = @"icon_logout";
+    model1.name = @"RoyalABBBC";
+    FDTagModel *model3 = [FDTagModel new];
+    model3.name = @"APMorgan，Royalrgan，Royargan，Royargan，Royargan，Royargan，Roya";
+    model3.icon = @"icon_logout";
+    FDTagModel *model4 = [FDTagModel new];
+    model4.name = @"Royal 二七王恶趣味";
+    model4.icon = @"icon_logout";
+    return @[model1,model3,model4].copy;
 }
 
 @end

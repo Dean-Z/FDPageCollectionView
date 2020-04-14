@@ -57,8 +57,9 @@
 		96FAFF8324445DFB00A1DBF1 /* MCBeginTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FAFF7024445DFB00A1DBF1 /* MCBeginTime.m */; };
 		96FAFF8424445DFB00A1DBF1 /* MCDecayAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FAFF7324445DFB00A1DBF1 /* MCDecayAnimation.m */; };
 		96FAFF8524445DFB00A1DBF1 /* MCAnimationProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FAFF7524445DFB00A1DBF1 /* MCAnimationProxy.m */; };
-		96FAFF8C2444688000A1DBF1 /* FDTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FAFF8B2444688000A1DBF1 /* FDTagView.m */; };
 		96FAFF982445693600A1DBF1 /* FDPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FAFF972445693600A1DBF1 /* FDPageControl.m */; };
+		96FAFFA124458E7400A1DBF1 /* FDTagGroupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FAFFA024458E7400A1DBF1 /* FDTagGroupView.m */; };
+		96FAFFA72445913000A1DBF1 /* FDTagModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FAFFA62445913000A1DBF1 /* FDTagModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -161,10 +162,12 @@
 		96FAFF7524445DFB00A1DBF1 /* MCAnimationProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCAnimationProxy.m; sourceTree = "<group>"; };
 		96FAFF7624445DFB00A1DBF1 /* MCStopProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCStopProxy.h; sourceTree = "<group>"; };
 		96FAFF7724445DFB00A1DBF1 /* MCBeginTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCBeginTime.h; sourceTree = "<group>"; };
-		96FAFF8A2444688000A1DBF1 /* FDTagView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDTagView.h; sourceTree = "<group>"; };
-		96FAFF8B2444688000A1DBF1 /* FDTagView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDTagView.m; sourceTree = "<group>"; };
 		96FAFF962445693600A1DBF1 /* FDPageControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDPageControl.h; sourceTree = "<group>"; };
 		96FAFF972445693600A1DBF1 /* FDPageControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDPageControl.m; sourceTree = "<group>"; };
+		96FAFF9F24458E7300A1DBF1 /* FDTagGroupView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDTagGroupView.h; sourceTree = "<group>"; };
+		96FAFFA024458E7400A1DBF1 /* FDTagGroupView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDTagGroupView.m; sourceTree = "<group>"; };
+		96FAFFA52445913000A1DBF1 /* FDTagModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDTagModel.h; sourceTree = "<group>"; };
+		96FAFFA62445913000A1DBF1 /* FDTagModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDTagModel.m; sourceTree = "<group>"; };
 		D61E15B3AB566673A2F8AA50 /* Pods-FDPageCollectionViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FDPageCollectionViewDemo.debug.xcconfig"; path = "Target Support Files/Pods-FDPageCollectionViewDemo/Pods-FDPageCollectionViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		EB2EF179FFFC5B4E9B5D3ABE /* Pods-FDPageCollectionViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FDPageCollectionViewDemo.release.xcconfig"; path = "Target Support Files/Pods-FDPageCollectionViewDemo/Pods-FDPageCollectionViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -393,10 +396,12 @@
 		96FAFF8624445E3600A1DBF1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				96FAFF8A2444688000A1DBF1 /* FDTagView.h */,
-				96FAFF8B2444688000A1DBF1 /* FDTagView.m */,
 				96FAFF962445693600A1DBF1 /* FDPageControl.h */,
 				96FAFF972445693600A1DBF1 /* FDPageControl.m */,
+				96FAFF9F24458E7300A1DBF1 /* FDTagGroupView.h */,
+				96FAFFA024458E7400A1DBF1 /* FDTagGroupView.m */,
+				96FAFFA52445913000A1DBF1 /* FDTagModel.h */,
+				96FAFFA62445913000A1DBF1 /* FDTagModel.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -585,6 +590,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96FAFFA72445913000A1DBF1 /* FDTagModel.m in Sources */,
 				96FAFE7A243DFA7500A1DBF1 /* ViewController.m in Sources */,
 				96FAFE74243DFA7500A1DBF1 /* AppDelegate.m in Sources */,
 				96FAFF8324445DFB00A1DBF1 /* MCBeginTime.m in Sources */,
@@ -593,11 +599,11 @@
 				96FAFEE1243ED9E800A1DBF1 /* FDNetworkChecker.m in Sources */,
 				96FAFE85243DFA7600A1DBF1 /* main.m in Sources */,
 				96FAFF8524445DFB00A1DBF1 /* MCAnimationProxy.m in Sources */,
+				96FAFFA124458E7400A1DBF1 /* FDTagGroupView.m in Sources */,
 				96FAFF7D24445DFB00A1DBF1 /* NSNumber+MCAdditions.m in Sources */,
 				96FAFF8224445DFB00A1DBF1 /* MCStopProxy.m in Sources */,
 				96FAFF8024445DFB00A1DBF1 /* NSArray+MCSequence.m in Sources */,
 				96FAFF7A24445DFB00A1DBF1 /* MCAnimationGroup.m in Sources */,
-				96FAFF8C2444688000A1DBF1 /* FDTagView.m in Sources */,
 				96FAFEBD243EBB7B00A1DBF1 /* FDDemoCollectionViewCell.m in Sources */,
 				96FAFF8424445DFB00A1DBF1 /* MCDecayAnimation.m in Sources */,
 				96FAFEAA243DFAC400A1DBF1 /* FDHorizontalCollectionViewFlowLayout.m in Sources */,
