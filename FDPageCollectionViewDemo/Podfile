@@ -6,5 +6,6 @@ target 'FDPageCollectionViewDemo' do
   # use_frameworks!
 
   pod 'Masonry'
+  pod 'pop'
 
 end

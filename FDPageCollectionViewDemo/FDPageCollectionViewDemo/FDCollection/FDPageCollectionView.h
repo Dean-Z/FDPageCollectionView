@@ -9,12 +9,21 @@
 #import <UIKit/UIKit.h>
 #import "Masonry.h"
 
+@protocol FDPageCollectionViewDelegate;
+
 @interface FDPageCollectionView : UIView
 
 @property (nonatomic, assign) BOOL scrollEnable;
+@property (nonatomic, weak) id<FDPageCollectionViewDelegate> delegate;
 
 - (void)render:(NSArray *)imgs;
 
 - (void)prepareFirstCellVideo;
+
+@end
+
+@protocol FDPageCollectionViewDelegate <NSObject>
+
+- (void)pageCollectionViewDidScrollToPage:(NSInteger)indexPage;
 
 @end

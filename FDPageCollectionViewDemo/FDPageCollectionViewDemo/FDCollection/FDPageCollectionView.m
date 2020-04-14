@@ -58,10 +58,12 @@
 
 - (void)scrollViewDidEndScrollingAnimation:(UIScrollView *)scrollView {
     [self playCurrentCellVideo];
+    self.tapGestureRecognizer.enabled = YES;
 }
 
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
     [self playCurrentCellVideo];
+    self.tapGestureRecognizer.enabled = YES;
 }
 
 - (void)playCurrentCellVideo {
@@ -69,6 +71,9 @@
     FDDemoCollectionViewCell *cell = (FDDemoCollectionViewCell *)[self.collectionView cellForItemAtIndexPath:[NSIndexPath indexPathForRow:index inSection:0]];
     if (cell) {
         [cell prepareVideo];
+    }
+    if ([self.delegate respondsToSelector:@selector(pageCollectionViewDidScrollToPage:)]) {
+        [self.delegate pageCollectionViewDidScrollToPage:index];
     }
 }
 
@@ -91,6 +96,10 @@
             index++;
         }
         [self.collectionView scrollToItemAtIndexPath:[NSIndexPath indexPathForRow:index inSection:0] atScrollPosition:UICollectionViewScrollPositionNone animated:YES];
+        recognizer.enabled = NO;
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.35 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            recognizer.enabled = YES;
+        });
     }
 }
 
@@ -132,7 +141,6 @@
         _collectionView.delegate = self;
         _collectionView.dataSource = self;
         [_collectionView registerClass:[FDDemoCollectionViewCell class] forCellWithReuseIdentifier:NSStringFromClass([FDDemoCollectionViewCell class])];
-        [_collectionView addGestureRecognizer:self.tapGestureRecognizer];
     }
     return _collectionView;
 }

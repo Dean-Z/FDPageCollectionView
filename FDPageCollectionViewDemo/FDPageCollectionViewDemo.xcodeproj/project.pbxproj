@@ -43,6 +43,22 @@
 		96FAFEEB243EFCA300A1DBF1 /* img_17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96FAFEE9243EFCA300A1DBF1 /* img_17.jpg */; };
 		96FAFEEC243EFCA300A1DBF1 /* img_18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96FAFEEA243EFCA300A1DBF1 /* img_18.jpg */; };
 		96FAFEEF243EFFD000A1DBF1 /* FDVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FAFEEE243EFFD000A1DBF1 /* FDVideoPlayer.m */; };
+		96FAFF7824445DFB00A1DBF1 /* UIView+MCShorthand.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FAFF5624445DFB00A1DBF1 /* UIView+MCShorthand.m */; };
+		96FAFF7924445DFB00A1DBF1 /* CALayer+MCShorthand.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FAFF5724445DFB00A1DBF1 /* CALayer+MCShorthand.m */; };
+		96FAFF7A24445DFB00A1DBF1 /* MCAnimationGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FAFF5E24445DFB00A1DBF1 /* MCAnimationGroup.m */; };
+		96FAFF7B24445DFB00A1DBF1 /* MCAnimationGroupInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FAFF5F24445DFB00A1DBF1 /* MCAnimationGroupInternal.m */; };
+		96FAFF7C24445DFB00A1DBF1 /* MCProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FAFF6324445DFB00A1DBF1 /* MCProxy.m */; };
+		96FAFF7D24445DFB00A1DBF1 /* NSNumber+MCAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FAFF6424445DFB00A1DBF1 /* NSNumber+MCAdditions.m */; };
+		96FAFF7E24445DFB00A1DBF1 /* MCVelocityProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FAFF6624445DFB00A1DBF1 /* MCVelocityProxy.m */; };
+		96FAFF7F24445DFB00A1DBF1 /* MCBasicAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FAFF6A24445DFB00A1DBF1 /* MCBasicAnimation.m */; };
+		96FAFF8024445DFB00A1DBF1 /* NSArray+MCSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FAFF6C24445DFB00A1DBF1 /* NSArray+MCSequence.m */; };
+		96FAFF8124445DFB00A1DBF1 /* MCSpringAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FAFF6D24445DFB00A1DBF1 /* MCSpringAnimation.m */; };
+		96FAFF8224445DFB00A1DBF1 /* MCStopProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FAFF6E24445DFB00A1DBF1 /* MCStopProxy.m */; };
+		96FAFF8324445DFB00A1DBF1 /* MCBeginTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FAFF7024445DFB00A1DBF1 /* MCBeginTime.m */; };
+		96FAFF8424445DFB00A1DBF1 /* MCDecayAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FAFF7324445DFB00A1DBF1 /* MCDecayAnimation.m */; };
+		96FAFF8524445DFB00A1DBF1 /* MCAnimationProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FAFF7524445DFB00A1DBF1 /* MCAnimationProxy.m */; };
+		96FAFF8C2444688000A1DBF1 /* FDTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FAFF8B2444688000A1DBF1 /* FDTagView.m */; };
+		96FAFF982445693600A1DBF1 /* FDPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FAFF972445693600A1DBF1 /* FDPageControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +130,41 @@
 		96FAFEEA243EFCA300A1DBF1 /* img_18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_18.jpg; sourceTree = "<group>"; };
 		96FAFEED243EFFD000A1DBF1 /* FDVideoPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDVideoPlayer.h; sourceTree = "<group>"; };
 		96FAFEEE243EFFD000A1DBF1 /* FDVideoPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDVideoPlayer.m; sourceTree = "<group>"; };
+		96FAFF5424445DFB00A1DBF1 /* POP+MCAnimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "POP+MCAnimate.h"; sourceTree = "<group>"; };
+		96FAFF5624445DFB00A1DBF1 /* UIView+MCShorthand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MCShorthand.m"; sourceTree = "<group>"; };
+		96FAFF5724445DFB00A1DBF1 /* CALayer+MCShorthand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+MCShorthand.m"; sourceTree = "<group>"; };
+		96FAFF5824445DFB00A1DBF1 /* MCShorthand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCShorthand.h; sourceTree = "<group>"; };
+		96FAFF5924445DFB00A1DBF1 /* UIView+MCShorthand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MCShorthand.h"; sourceTree = "<group>"; };
+		96FAFF5A24445DFB00A1DBF1 /* CALayer+MCShorthand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+MCShorthand.h"; sourceTree = "<group>"; };
+		96FAFF5C24445DFB00A1DBF1 /* MCAnimationGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAnimationGroup.h; sourceTree = "<group>"; };
+		96FAFF5D24445DFB00A1DBF1 /* MCAnimationGroupInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAnimationGroupInternal.h; sourceTree = "<group>"; };
+		96FAFF5E24445DFB00A1DBF1 /* MCAnimationGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCAnimationGroup.m; sourceTree = "<group>"; };
+		96FAFF5F24445DFB00A1DBF1 /* MCAnimationGroupInternal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCAnimationGroupInternal.m; sourceTree = "<group>"; };
+		96FAFF6124445DFB00A1DBF1 /* NSNumber+MCAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+MCAdditions.h"; sourceTree = "<group>"; };
+		96FAFF6224445DFB00A1DBF1 /* MCProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCProxy.h; sourceTree = "<group>"; };
+		96FAFF6324445DFB00A1DBF1 /* MCProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCProxy.m; sourceTree = "<group>"; };
+		96FAFF6424445DFB00A1DBF1 /* NSNumber+MCAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+MCAdditions.m"; sourceTree = "<group>"; };
+		96FAFF6624445DFB00A1DBF1 /* MCVelocityProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCVelocityProxy.m; sourceTree = "<group>"; };
+		96FAFF6724445DFB00A1DBF1 /* MCVelocityProxyInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCVelocityProxyInternal.h; sourceTree = "<group>"; };
+		96FAFF6824445DFB00A1DBF1 /* MCVelocityProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCVelocityProxy.h; sourceTree = "<group>"; };
+		96FAFF6A24445DFB00A1DBF1 /* MCBasicAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCBasicAnimation.m; sourceTree = "<group>"; };
+		96FAFF6B24445DFB00A1DBF1 /* MCDecayAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDecayAnimation.h; sourceTree = "<group>"; };
+		96FAFF6C24445DFB00A1DBF1 /* NSArray+MCSequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MCSequence.m"; sourceTree = "<group>"; };
+		96FAFF6D24445DFB00A1DBF1 /* MCSpringAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCSpringAnimation.m; sourceTree = "<group>"; };
+		96FAFF6E24445DFB00A1DBF1 /* MCStopProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCStopProxy.m; sourceTree = "<group>"; };
+		96FAFF6F24445DFB00A1DBF1 /* MCAnimationProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAnimationProxy.h; sourceTree = "<group>"; };
+		96FAFF7024445DFB00A1DBF1 /* MCBeginTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCBeginTime.m; sourceTree = "<group>"; };
+		96FAFF7124445DFB00A1DBF1 /* MCSpringAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSpringAnimation.h; sourceTree = "<group>"; };
+		96FAFF7224445DFB00A1DBF1 /* NSArray+MCSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MCSequence.h"; sourceTree = "<group>"; };
+		96FAFF7324445DFB00A1DBF1 /* MCDecayAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDecayAnimation.m; sourceTree = "<group>"; };
+		96FAFF7424445DFB00A1DBF1 /* MCBasicAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCBasicAnimation.h; sourceTree = "<group>"; };
+		96FAFF7524445DFB00A1DBF1 /* MCAnimationProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCAnimationProxy.m; sourceTree = "<group>"; };
+		96FAFF7624445DFB00A1DBF1 /* MCStopProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCStopProxy.h; sourceTree = "<group>"; };
+		96FAFF7724445DFB00A1DBF1 /* MCBeginTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCBeginTime.h; sourceTree = "<group>"; };
+		96FAFF8A2444688000A1DBF1 /* FDTagView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDTagView.h; sourceTree = "<group>"; };
+		96FAFF8B2444688000A1DBF1 /* FDTagView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDTagView.m; sourceTree = "<group>"; };
+		96FAFF962445693600A1DBF1 /* FDPageControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDPageControl.h; sourceTree = "<group>"; };
+		96FAFF972445693600A1DBF1 /* FDPageControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDPageControl.m; sourceTree = "<group>"; };
 		D61E15B3AB566673A2F8AA50 /* Pods-FDPageCollectionViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FDPageCollectionViewDemo.debug.xcconfig"; path = "Target Support Files/Pods-FDPageCollectionViewDemo/Pods-FDPageCollectionViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		EB2EF179FFFC5B4E9B5D3ABE /* Pods-FDPageCollectionViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FDPageCollectionViewDemo.release.xcconfig"; path = "Target Support Files/Pods-FDPageCollectionViewDemo/Pods-FDPageCollectionViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -178,6 +229,8 @@
 		96FAFE71243DFA7500A1DBF1 /* FDPageCollectionViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				96FAFF8624445E3600A1DBF1 /* Views */,
+				96FAFF5324445DFB00A1DBF1 /* POP+MCAnimate */,
 				96FAFEBE243EBEF700A1DBF1 /* imgs */,
 				96FAFEA7243DFA8700A1DBF1 /* FDCollection */,
 				96FAFE72243DFA7500A1DBF1 /* AppDelegate.h */,
@@ -257,6 +310,95 @@
 				96FAFEEA243EFCA300A1DBF1 /* img_18.jpg */,
 			);
 			path = imgs;
+			sourceTree = "<group>";
+		};
+		96FAFF5324445DFB00A1DBF1 /* POP+MCAnimate */ = {
+			isa = PBXGroup;
+			children = (
+				96FAFF5424445DFB00A1DBF1 /* POP+MCAnimate.h */,
+				96FAFF5524445DFB00A1DBF1 /* Shorthand */,
+				96FAFF5B24445DFB00A1DBF1 /* Group */,
+				96FAFF6024445DFB00A1DBF1 /* Internal */,
+				96FAFF6524445DFB00A1DBF1 /* Velocity */,
+				96FAFF6924445DFB00A1DBF1 /* Animations */,
+			);
+			path = "POP+MCAnimate";
+			sourceTree = "<group>";
+		};
+		96FAFF5524445DFB00A1DBF1 /* Shorthand */ = {
+			isa = PBXGroup;
+			children = (
+				96FAFF5A24445DFB00A1DBF1 /* CALayer+MCShorthand.h */,
+				96FAFF5724445DFB00A1DBF1 /* CALayer+MCShorthand.m */,
+				96FAFF5824445DFB00A1DBF1 /* MCShorthand.h */,
+				96FAFF5924445DFB00A1DBF1 /* UIView+MCShorthand.h */,
+				96FAFF5624445DFB00A1DBF1 /* UIView+MCShorthand.m */,
+			);
+			path = Shorthand;
+			sourceTree = "<group>";
+		};
+		96FAFF5B24445DFB00A1DBF1 /* Group */ = {
+			isa = PBXGroup;
+			children = (
+				96FAFF5C24445DFB00A1DBF1 /* MCAnimationGroup.h */,
+				96FAFF5E24445DFB00A1DBF1 /* MCAnimationGroup.m */,
+				96FAFF5D24445DFB00A1DBF1 /* MCAnimationGroupInternal.h */,
+				96FAFF5F24445DFB00A1DBF1 /* MCAnimationGroupInternal.m */,
+			);
+			path = Group;
+			sourceTree = "<group>";
+		};
+		96FAFF6024445DFB00A1DBF1 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				96FAFF6224445DFB00A1DBF1 /* MCProxy.h */,
+				96FAFF6324445DFB00A1DBF1 /* MCProxy.m */,
+				96FAFF6124445DFB00A1DBF1 /* NSNumber+MCAdditions.h */,
+				96FAFF6424445DFB00A1DBF1 /* NSNumber+MCAdditions.m */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		96FAFF6524445DFB00A1DBF1 /* Velocity */ = {
+			isa = PBXGroup;
+			children = (
+				96FAFF6824445DFB00A1DBF1 /* MCVelocityProxy.h */,
+				96FAFF6624445DFB00A1DBF1 /* MCVelocityProxy.m */,
+				96FAFF6724445DFB00A1DBF1 /* MCVelocityProxyInternal.h */,
+			);
+			path = Velocity;
+			sourceTree = "<group>";
+		};
+		96FAFF6924445DFB00A1DBF1 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				96FAFF6F24445DFB00A1DBF1 /* MCAnimationProxy.h */,
+				96FAFF7524445DFB00A1DBF1 /* MCAnimationProxy.m */,
+				96FAFF7424445DFB00A1DBF1 /* MCBasicAnimation.h */,
+				96FAFF6A24445DFB00A1DBF1 /* MCBasicAnimation.m */,
+				96FAFF7724445DFB00A1DBF1 /* MCBeginTime.h */,
+				96FAFF7024445DFB00A1DBF1 /* MCBeginTime.m */,
+				96FAFF6B24445DFB00A1DBF1 /* MCDecayAnimation.h */,
+				96FAFF7324445DFB00A1DBF1 /* MCDecayAnimation.m */,
+				96FAFF7124445DFB00A1DBF1 /* MCSpringAnimation.h */,
+				96FAFF6D24445DFB00A1DBF1 /* MCSpringAnimation.m */,
+				96FAFF7624445DFB00A1DBF1 /* MCStopProxy.h */,
+				96FAFF6E24445DFB00A1DBF1 /* MCStopProxy.m */,
+				96FAFF7224445DFB00A1DBF1 /* NSArray+MCSequence.h */,
+				96FAFF6C24445DFB00A1DBF1 /* NSArray+MCSequence.m */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		96FAFF8624445E3600A1DBF1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				96FAFF8A2444688000A1DBF1 /* FDTagView.h */,
+				96FAFF8B2444688000A1DBF1 /* FDTagView.m */,
+				96FAFF962445693600A1DBF1 /* FDPageControl.h */,
+				96FAFF972445693600A1DBF1 /* FDPageControl.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		B4550CAC4B10B531F246B429 /* Frameworks */ = {
@@ -445,14 +587,30 @@
 			files = (
 				96FAFE7A243DFA7500A1DBF1 /* ViewController.m in Sources */,
 				96FAFE74243DFA7500A1DBF1 /* AppDelegate.m in Sources */,
+				96FAFF8324445DFB00A1DBF1 /* MCBeginTime.m in Sources */,
 				96FAFEEF243EFFD000A1DBF1 /* FDVideoPlayer.m in Sources */,
+				96FAFF7E24445DFB00A1DBF1 /* MCVelocityProxy.m in Sources */,
 				96FAFEE1243ED9E800A1DBF1 /* FDNetworkChecker.m in Sources */,
 				96FAFE85243DFA7600A1DBF1 /* main.m in Sources */,
+				96FAFF8524445DFB00A1DBF1 /* MCAnimationProxy.m in Sources */,
+				96FAFF7D24445DFB00A1DBF1 /* NSNumber+MCAdditions.m in Sources */,
+				96FAFF8224445DFB00A1DBF1 /* MCStopProxy.m in Sources */,
+				96FAFF8024445DFB00A1DBF1 /* NSArray+MCSequence.m in Sources */,
+				96FAFF7A24445DFB00A1DBF1 /* MCAnimationGroup.m in Sources */,
+				96FAFF8C2444688000A1DBF1 /* FDTagView.m in Sources */,
 				96FAFEBD243EBB7B00A1DBF1 /* FDDemoCollectionViewCell.m in Sources */,
+				96FAFF8424445DFB00A1DBF1 /* MCDecayAnimation.m in Sources */,
 				96FAFEAA243DFAC400A1DBF1 /* FDHorizontalCollectionViewFlowLayout.m in Sources */,
+				96FAFF7C24445DFB00A1DBF1 /* MCProxy.m in Sources */,
+				96FAFF7824445DFB00A1DBF1 /* UIView+MCShorthand.m in Sources */,
+				96FAFF8124445DFB00A1DBF1 /* MCSpringAnimation.m in Sources */,
 				96FAFE77243DFA7500A1DBF1 /* SceneDelegate.m in Sources */,
+				96FAFF7F24445DFB00A1DBF1 /* MCBasicAnimation.m in Sources */,
 				96FAFEBA243E0F7D00A1DBF1 /* FDPageTableViewCell.m in Sources */,
+				96FAFF982445693600A1DBF1 /* FDPageControl.m in Sources */,
+				96FAFF7B24445DFB00A1DBF1 /* MCAnimationGroupInternal.m in Sources */,
 				96FAFEAD243DFB6700A1DBF1 /* FDPageCollectionView.m in Sources */,
+				96FAFF7924445DFB00A1DBF1 /* CALayer+MCShorthand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
